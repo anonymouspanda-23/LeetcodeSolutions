@@ -1,7 +1,7 @@
 # LeetcodeSolutions
 This repository contains the leetcode questions which I have attempted and successfully completed.
 
-Each folder represents a question on <a href="https://leetcode.com" target="_blank">leetcode.com</a> and has the following structure:
+Each folder represents a question on <a href="https://leetcode.com" target="_blank" rel="noreferrer noopener">leetcode.com</a> and has the following structure:
 
 LeetcodeXXYYY (where XX denotes the question number and YYY denotes the title of the question) <br>
 &nbsp; | - question.md (A markdown file containing the question as shown on leetcode) <br>
