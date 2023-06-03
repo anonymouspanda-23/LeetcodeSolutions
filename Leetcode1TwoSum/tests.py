@@ -5,19 +5,19 @@ from solution import Solution
 class TestCases(unittest.TestCase):
     solution_instance = Solution()
 
-    def testOne(self):
+    def test_one(self):
         nums = [2, 7, 11, 15]
         target = 9
         expected_result = [0, 1]
         assert self.solution_instance.twoSum(nums, target) == expected_result
 
-    def testTwo(self):
+    def test_two(self):
         nums = [3, 2, 4]
         target = 6
         expected_result = [1, 2]
         assert self.solution_instance.twoSum(nums, target) == expected_result
 
-    def testThree(self):
+    def test_three(self):
         nums = [3, 3]
         target = 6
         expected_result = [0, 1]
